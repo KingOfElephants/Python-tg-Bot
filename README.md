@@ -4,13 +4,7 @@ A modular telegram Python bot running on python3 with an sqlalchemy database.
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
 simple to use. 
 
-Can be found on telegram as [Monicabot](https://t.me/MsmonicaBot).
-
-Join the [news channel](https://t.me/aka_NB) if you just want to stay in the loop about new features or
-announcements.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HyperNB/monicatgbot)
-
+Can be found on telegram as [Juliebot](https://t.me/the_julieBot)
 
 ## Thanks to
 
@@ -50,8 +44,8 @@ from tg_bot.sample_config import Config
 
 
 class Development(Config):
-    OWNER_ID = 483808054  # my telegram ID
-    OWNER_USERNAME = "@HyperNB"  # my telegram username
+    OWNER_ID = 652852727  # your telegram ID ,, 
+    OWNER_USERNAME = "@KingOfElephants"  # my telegram username
     API_KEY = "your bot api key"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '' # some group chat that your bot is a member of
@@ -61,7 +55,7 @@ class Development(Config):
     NO_LOAD = ['translation']
 ```
 
-If you can't have a config.py file (EG on heroku), it is also possible to use environment variables.
+If you can't have a config.py file, it is also possible to use environment variables.
 The following env variables are supported:
  - `ENV`: Setting this to ANYTHING will enable env variables
 
