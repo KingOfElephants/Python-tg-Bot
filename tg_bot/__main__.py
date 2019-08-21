@@ -20,8 +20,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 from tg_bot.modules.translations.strings import tld, tld_help 
 from tg_bot.modules.connection import connected
 
-PM_START = """Hi {}, My name is {} - I'm here to help you manage your groups! I'm a modular group management bot with a few fun extras! I'm built in python3, using the python-telegram-bot library,Click Help button to find out more about how to use me to my full potential. Join to my [NEWS CHANNEL](https://t.me/joinchat/AAAAAFSlDsiCWeq9UhYLGg) for announcements on new features, downtime, etc.
-Want to add me to your chat? [Click here](http://t.me/msmonicabot?startgroup=botstart)
+PM_START = """Konnichiwa {}, My name is {} - I'm here to help you manage your groups! I'm a modular group management bot with a few fun extras! I'm built in python3, using the python-telegram-bot library,Click Help button to find out more about how to use me to my full potential.
+Want to add me to your chat? [Click here](http://t.me/the_juliebot?startgroup=botstart)
 """
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
